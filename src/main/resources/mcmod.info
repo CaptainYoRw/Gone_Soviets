@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gonesovietsmod",
+  "name": "Gone Soviets",
+  "description": "The alpha version of mod that add different aspects of Great Soviet Union in Minecraft",
+  "version": "0.15 alpha",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Captain YoRw/mrclon_51, NyDyFinFox"],
+  "credits": "The Forge and FML guys",
+  "logoFile": "Logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

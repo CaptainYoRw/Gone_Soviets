@@ -1,0 +1,11 @@
+{ 
+     "variants": { 
+         "normal": [ 
+             { "model": "gonesovietsmod:red_bricks_50_r/0" },
+			 { "model": "gonesovietsmod:red_bricks_50_r/1" },
+			 { "model": "gonesovietsmod:red_bricks_50_r/2" },
+			 { "model": "gonesovietsmod:red_bricks_50_r/3" },
+			 { "model": "gonesovietsmod:red_bricks_50_r/4" }
+         ] 
+     } 
+ } 
