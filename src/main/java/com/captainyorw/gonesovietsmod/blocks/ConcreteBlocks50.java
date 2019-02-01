@@ -18,7 +18,7 @@ public class ConcreteBlocks50 extends Block{
 		super(material); 
 		setUnlocalizedName(name); 
 		setRegistryName(name);
-		setHardness(2.3f);
+		setHardness(17.6f);
 		setSoundType(SoundType.STONE);
 		setHarvestLevel("Pickaxe", 2);
 		setResistance(75);
