@@ -23,6 +23,7 @@ public class SilicateBricks50 extends Block{
 		setHarvestLevel("Pickaxe", 2);
 		setResistance(27);
 		setCreativeTab(GoneSovietsMod.gonesovietsmodtab);
+		setLightOpacity(255);
 	}
 	
 		@Override

@@ -35,6 +35,7 @@ public class ConcreteWallSlab50 extends Block{
 		setHarvestLevel("Pickaxe", 2);
 		setResistance(55);
 		setCreativeTab(GoneSovietsMod.gonesovietsmodtab);
+		setLightOpacity(255);
 	}
 	
 		@Override

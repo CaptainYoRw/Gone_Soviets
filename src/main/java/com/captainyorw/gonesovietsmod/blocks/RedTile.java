@@ -23,6 +23,7 @@ public class RedTile extends Block{
 		setHarvestLevel("Pickaxe", 2);
 		setResistance(23);
 		setCreativeTab(GoneSovietsMod.gonesovietsmodtab);
+		setLightOpacity(255);
 	}
 	
 		@Override

@@ -7,7 +7,10 @@ import com.captainyorw.gonesovietsmod.blocks.SilicateBricks50;
 import com.captainyorw.gonesovietsmod.blocks.ConcreteBlocks50;
 import com.captainyorw.gonesovietsmod.blocks.Concrete50;
 import com.captainyorw.gonesovietsmod.blocks.ConcreteWallSlab50;
-import com.captainyorw.gonesovietsmod.blocks.ConcreteStairsLeft;
+import com.captainyorw.gonesovietsmod.blocks.GreenRailing50;
+import com.captainyorw.gonesovietsmod.blocks.ConcreteStairsLeft50;
+import com.captainyorw.gonesovietsmod.blocks.ConcreteStairsMiddle50;
+import com.captainyorw.gonesovietsmod.blocks.ConcreteStairsRight50;
 import com.captainyorw.gonesovietsmod.blocks.WhiteTile;
 import com.captainyorw.gonesovietsmod.blocks.YellowTile;
 import com.captainyorw.gonesovietsmod.blocks.RedTile;
@@ -35,7 +38,10 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
  	static Block TILEWHITE;
  	static Block TILEYELLOW;
  	static Block TILERED;
- 	static Block STAIRSCONCRETELEFT;
+ 	static Block RAILINGGREEN;
+ 	static Block STAIRSCONCRETELEFT50;
+ 	static Block STAIRSCONCRETEMIDDLE50;
+ 	static Block STAIRSCONCRETERIGHT50;
  	 
  	public static void init() {
  		BRICKSRED50 = new RedBricks50("red_bricks_50", Material.ROCK);
@@ -47,7 +53,10 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
  		TILEWHITE = new WhiteTile("white_tile", Material.ROCK);
  		TILEYELLOW = new YellowTile("yellow_tile", Material.ROCK);
  		TILERED = new RedTile("red_tile", Material.ROCK);
- 		STAIRSCONCRETELEFT = new ConcreteStairsLeft("concrete_stairs_left_50", Material.ROCK);
+ 		RAILINGGREEN = new GreenRailing50("green_railing_50", Material.ROCK);
+ 		STAIRSCONCRETELEFT50 = new ConcreteStairsLeft50("concrete_stairs_left_50", Material.ROCK);
+ 		STAIRSCONCRETEMIDDLE50 = new ConcreteStairsMiddle50("concrete_stairs_middle_50", Material.ROCK);
+ 		STAIRSCONCRETERIGHT50 = new ConcreteStairsRight50("concrete_stairs_right_50", Material.ROCK);
 
  	} 
  	 
@@ -62,7 +71,10 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
  		event.getRegistry().registerAll(TILEWHITE);
  		event.getRegistry().registerAll(TILEYELLOW);
  		event.getRegistry().registerAll(TILERED);
- 		event.getRegistry().registerAll(STAIRSCONCRETELEFT);
+ 		event.getRegistry().registerAll(RAILINGGREEN);
+ 		event.getRegistry().registerAll(STAIRSCONCRETELEFT50);
+ 		event.getRegistry().registerAll(STAIRSCONCRETEMIDDLE50);
+ 		event.getRegistry().registerAll(STAIRSCONCRETERIGHT50);
  		 
  	} 
  	 
@@ -77,7 +89,10 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
  		event.getRegistry().registerAll(new ItemBlock(TILEWHITE).setRegistryName(TILEWHITE.getRegistryName()));
  		event.getRegistry().registerAll(new ItemBlock(TILEYELLOW).setRegistryName(TILEYELLOW.getRegistryName()));
  		event.getRegistry().registerAll(new ItemBlock(TILERED).setRegistryName(TILERED.getRegistryName()));
- 		event.getRegistry().registerAll(new ItemBlock(STAIRSCONCRETELEFT).setRegistryName(STAIRSCONCRETELEFT.getRegistryName()));
+ 		event.getRegistry().registerAll(new ItemBlock(RAILINGGREEN).setRegistryName(RAILINGGREEN.getRegistryName()));
+ 		event.getRegistry().registerAll(new ItemBlock(STAIRSCONCRETELEFT50).setRegistryName(STAIRSCONCRETELEFT50.getRegistryName()));
+ 		event.getRegistry().registerAll(new ItemBlock(STAIRSCONCRETEMIDDLE50).setRegistryName(STAIRSCONCRETEMIDDLE50.getRegistryName()));
+ 		event.getRegistry().registerAll(new ItemBlock(STAIRSCONCRETERIGHT50).setRegistryName(STAIRSCONCRETERIGHT50.getRegistryName()));
  		 
  	} 
  	 
@@ -92,7 +107,10 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
  		registerRender(Item.getItemFromBlock(TILEWHITE));
  		registerRender(Item.getItemFromBlock(TILEYELLOW));
  		registerRender(Item.getItemFromBlock(TILERED));
-		registerRender(Item.getItemFromBlock(STAIRSCONCRETELEFT));
+ 		registerRender(Item.getItemFromBlock(RAILINGGREEN));
+		registerRender(Item.getItemFromBlock(STAIRSCONCRETELEFT50));
+		registerRender(Item.getItemFromBlock(STAIRSCONCRETEMIDDLE50));
+		registerRender(Item.getItemFromBlock(STAIRSCONCRETERIGHT50));
  		 
  	} 
  	 

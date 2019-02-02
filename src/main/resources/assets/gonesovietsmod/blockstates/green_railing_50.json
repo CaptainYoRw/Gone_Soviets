@@ -1,0 +1,13 @@
+{
+"variants": {
+"facing=north,rotation=right": {"model": "gonesovietsmod:green_railing_50"},
+"facing=north,rotation=left": {"model": "gonesovietsmod:green_railing_50_1", "y": 180},
+"facing=south,rotation=right": { "model": "gonesovietsmod:green_railing_50", "y": 180},
+"facing=south,rotation=left": { "model": "gonesovietsmod:green_railing_50_1"},
+"facing=east,rotation=right": { "model": "gonesovietsmod:green_railing_50", "y": 90},
+"facing=east,rotation=left": { "model": "gonesovietsmod:green_railing_50_1", "y": 270},
+"facing=west,rotation=right": { "model": "gonesovietsmod:green_railing_50", "y": 270},
+"facing=west,rotation=left": { "model": "gonesovietsmod:green_railing_50_1", "y": 90}
+
+}
+}

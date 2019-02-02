@@ -1,7 +1,7 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
     "textures": {
-        "particle": "gonesovietsmod:particles/stairs_particle",
+        "particle": "gonesovietsmod:particles/stairs_particle_50",
         "concrete_50": "gonesovietsmod:blocks/concrete_50",
         "rusty_green_metal": "gonesovietsmod:blocks/rusty_green_metal",
         "brown_paint": "gonesovietsmod:blocks/brown_paint"
@@ -197,7 +197,7 @@
                 "east": { "texture": "#brown_paint", "uv": [ 0, 4, 16, 5 ] },
                 "south": { "texture": "#brown_paint", "uv": [ 11, 7, 12, 8 ] },
                 "west": { "texture": "#brown_paint", "uv": [ 0, 2, 16, 3 ] },
-                "up": { "texture": "#brown_paint", "uv": [ 12, 0, 14, 16 ] },
+                "up": { "texture": "#brown_paint", "uv": [ 14, 0, 16, 16 ] },
                 "down": { "texture": "#brown_paint", "uv": [ 8, 0, 10, 16 ] }
             }
         },
@@ -273,28 +273,28 @@
         },
         {
             "name": "Cube",
-            "from": [ 0.4, 11, -6.63 ], 
+            "from": [ 0.4, 11, -6.638 ], 
             "to": [ 0.65, 12, -6 ], 
             "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "x", "angle": 45.0 },
             "faces": {
                 "north": { "texture": "#rusty_green_metal", "uv": [ 3, 3, 3.25, 4 ] },
-                "east": { "texture": "#rusty_green_metal", "uv": [ 1, 7, 1.63, 8 ] },
+                "east": { "texture": "#rusty_green_metal", "uv": [ 1, 7, 1.55, 8 ] },
                 "south": { "texture": "#rusty_green_metal", "uv": [ 6, 9, 6.25, 10 ] },
                 "west": { "texture": "#rusty_green_metal", "uv": [ 13, 7, 13.63, 8 ] },
                 "up": { "texture": "#rusty_green_metal", "uv": [ 6, 9, 6.25, 9.63 ] },
-                "down": { "texture": "#rusty_green_metal", "uv": [ 8, 5, 8.25, 5.63 ] }
+                "down": { "texture": "#rusty_green_metal", "uv": [ 8, 5, 8.25, 5.638 ] }
             }
         },
         {
             "name": "Cube",
-            "from": [ 1.35, 11, -6.64 ], 
-            "to": [ 1.6, 12, -6.01 ], 
+            "from": [ 1.35, 11, -6.638 ], 
+            "to": [ 1.6, 12, -6 ], 
             "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "x", "angle": 45.0 },
             "faces": {
                 "north": { "texture": "#rusty_green_metal", "uv": [ 3, 12, 3.25, 13 ] },
                 "east": { "texture": "#rusty_green_metal", "uv": [ 14, 3, 14.63, 4 ] },
                 "south": { "texture": "#rusty_green_metal", "uv": [ 5, 13, 5.25, 14 ] },
-                "west": { "texture": "#rusty_green_metal", "uv": [ 2, 14, 2.63, 15 ] },
+                "west": { "texture": "#rusty_green_metal", "uv": [ 2, 14, 2.638, 15 ] },
                 "up": { "texture": "#rusty_green_metal", "uv": [ 14, 0, 14.25, 0.63 ] },
                 "down": { "texture": "#rusty_green_metal", "uv": [ 12, 14, 12.25, 14.63 ] }
             }

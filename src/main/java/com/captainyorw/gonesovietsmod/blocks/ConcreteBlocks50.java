@@ -23,6 +23,7 @@ public class ConcreteBlocks50 extends Block{
 		setHarvestLevel("Pickaxe", 2);
 		setResistance(75);
 		setCreativeTab(GoneSovietsMod.gonesovietsmodtab);
+		setLightOpacity(255);
 	}
 	
 		@Override

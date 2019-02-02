@@ -1,0 +1,107 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "gonesovietsmod:blocks/concrete_50",
+        "concrete_50": "gonesovietsmod:blocks/concrete_50"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0, 0, 12 ], 
+            "to": [ 16, 4, 16 ], 
+            "faces": {
+                "north": { "texture": "#concrete_50", "uv": [ 0, 7, 16, 11 ] },
+                "east": { "texture": "#concrete_50", "uv": [ 9, 3, 13, 7 ] },
+                "south": { "texture": "#concrete_50", "uv": [ 0, 1, 16, 5 ] },
+                "west": { "texture": "#concrete_50", "uv": [ 6, 4, 10, 8 ] },
+                "up": { "texture": "#concrete_50", "uv": [ 0, 4, 16, 8 ] },
+                "down": { "texture": "#concrete_50", "uv": [ 0, 7, 16, 11 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0, 4, 8 ], 
+            "to": [ 16, 8, 12 ], 
+            "faces": {
+                "north": { "texture": "#concrete_50", "uv": [ 0, 7, 16, 11 ] },
+                "east": { "texture": "#concrete_50", "uv": [ 9, 3, 13, 7 ] },
+                "south": { "texture": "#concrete_50", "uv": [ 0, 6, 16, 10 ] },
+                "west": { "texture": "#concrete_50", "uv": [ 9, 9, 13, 13 ] },
+                "up": { "texture": "#concrete_50", "uv": [ 0, 2, 16, 6 ] },
+                "down": { "texture": "#concrete_50", "uv": [ 0, 3, 16, 7 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0, 8, 4 ], 
+            "to": [ 16, 12, 8 ], 
+            "faces": {
+                "north": { "texture": "#concrete_50", "uv": [ 0, 6, 16, 10 ] },
+                "east": { "texture": "#concrete_50", "uv": [ 8, 3, 12, 7 ] },
+                "south": { "texture": "#concrete_50", "uv": [ 0, 11, 16, 15 ] },
+                "west": { "texture": "#concrete_50", "uv": [ 2, 9, 6, 13 ] },
+                "up": { "texture": "#concrete_50", "uv": [ 0, 12, 16, 16 ] },
+                "down": { "texture": "#concrete_50", "uv": [ 0, 7, 16, 11 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0, 12, 0 ], 
+            "to": [ 16, 16, 4 ], 
+            "faces": {
+                "north": { "texture": "#concrete_50", "uv": [ 0, 11, 16, 15 ] },
+                "east": { "texture": "#concrete_50", "uv": [ 9, 4, 13, 8 ] },
+                "south": { "texture": "#concrete_50", "uv": [ 0, 3, 16, 7 ] },
+                "west": { "texture": "#concrete_50", "uv": [ 2, 10, 6, 14 ] },
+                "up": { "texture": "#concrete_50", "uv": [ 0, 5, 16, 9 ] },
+                "down": { "texture": "#concrete_50", "uv": [ 0, 3, 16, 7 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0.001, 5.171, -0.485 ], 
+            "to": [ 15.999, 8, 22.148 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "x", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#concrete_50", "uv": [ 0, 4, 15.998, 6.829 ] },
+                "east": { "texture": "#concrete_50", "uv": [ 0, 9, 16, 11.829 ] },
+                "south": { "texture": "#concrete_50", "uv": [ 0, 5, 15.998, 10.829 ] },
+                "west": { "texture": "#concrete_50", "uv": [ 0, 6, 16, 8.829 ] },
+                "up": { "texture": "#concrete_50", "uv": [ 0, 0, 15.998, 16 ] },
+                "down": { "texture": "#concrete_50", "uv": [ 0, 0, 15.998, 16 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+"variants": {
+"facing=north": {"model": "gonesovietsmod:concrete_stairs_middle_50"},
+"facing=south": { "model": "gonesovietsmod:concrete_stairs_middle_50", "y": 180},
+"facing=east": { "model": "gonesovietsmod:concrete_stairs_middle_50", "y": 90},
+"facing=west": { "model": "gonesovietsmod:concrete_stairs_middle_50", "y": 270}
+
+}
+}
