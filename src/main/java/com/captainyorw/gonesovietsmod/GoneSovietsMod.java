@@ -21,7 +21,7 @@ public class GoneSovietsMod {
 	
     public static final String MODID = "gonesovietsmod"; //ID мода
     public static final String NAME = "Gone Soviets"; //название мода
-    public static final String VERSION = "0.2 pre-alpha"; //версия мода
+    public static final String VERSION = "0.212 pre-alpha"; //версия мода
     public static final String ACCEPTED_MINECRAFT_VERSIONS = "1.12.2"; //совместимая версия игры
 
     @EventHandler
