@@ -1,0 +1,6 @@
+{ 
+     "parent": "block/cube_all", 
+     "textures": { 
+         "all": "gonesovietsmod:blocks/red_bricks_50_r_cracked_13" 
+     } 
+ } 
