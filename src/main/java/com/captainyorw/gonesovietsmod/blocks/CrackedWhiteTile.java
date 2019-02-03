@@ -12,16 +12,16 @@ import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class WhiteTile extends Block{
+public class CrackedWhiteTile extends Block{
 
-	public WhiteTile(String name, Material material) {
+	public CrackedWhiteTile(String name, Material material) {
 		super(material); 
 		setUnlocalizedName(name); 
 		setRegistryName(name);
-		setHardness(7f);
+		setHardness(5f);
 		setSoundType(SoundType.STONE);
 		setHarvestLevel("Pickaxe", 2);
-		setResistance(18);
+		setResistance(15);
 		setCreativeTab(GoneSovietsMod.gonesovietsmodtab);
 		setLightOpacity(255);
 	}

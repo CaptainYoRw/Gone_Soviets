@@ -21,7 +21,7 @@ public class RedBricks50R extends Block{
 		setHardness(9f);
 		setSoundType(SoundType.STONE);
 		setHarvestLevel("Pickaxe", 2);
-		setResistance(39);
+		setResistance(29);
 		setCreativeTab(GoneSovietsMod.gonesovietsmodtab);
 		setLightOpacity(255);
 	}

@@ -21,7 +21,7 @@ public class YellowTile extends Block{
 		setHardness(7f);
 		setSoundType(SoundType.STONE);
 		setHarvestLevel("Pickaxe", 2);
-		setResistance(23);
+		setResistance(18);
 		setCreativeTab(GoneSovietsMod.gonesovietsmodtab);
 		setLightOpacity(255);
 	}
