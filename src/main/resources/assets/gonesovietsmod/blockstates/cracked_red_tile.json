@@ -1,0 +1,12 @@
+{ 
+     "variants": { 
+         "normal": [ 
+             { "model": "gonesovietsmod:cracked_red_tile/0" },
+             { "model": "gonesovietsmod:cracked_red_tile/1" },
+             { "model": "gonesovietsmod:cracked_red_tile/2" },
+             { "model": "gonesovietsmod:cracked_red_tile/3" },
+             { "model": "gonesovietsmod:cracked_red_tile/4" },
+			 { "model": "gonesovietsmod:cracked_red_tile/5" }
+         ] 
+     } 
+ } 

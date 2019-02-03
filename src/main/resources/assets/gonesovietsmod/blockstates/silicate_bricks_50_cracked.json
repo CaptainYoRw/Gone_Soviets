@@ -1,0 +1,9 @@
+{ 
+     "variants": { 
+         "normal": [ 
+             { "model": "gonesovietsmod:silicate_bricks_50_cracked/0" },
+			 { "model": "gonesovietsmod:silicate_bricks_50_cracked/1" },
+			 { "model": "gonesovietsmod:silicate_bricks_50_cracked/2" }
+         ] 
+     } 
+ } 

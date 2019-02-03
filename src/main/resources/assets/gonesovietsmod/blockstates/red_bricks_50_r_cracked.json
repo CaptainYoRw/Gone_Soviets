@@ -1,0 +1,21 @@
+{ 
+     "variants": { 
+         "normal": [ 
+             { "model": "gonesovietsmod:red_bricks_50_r_cracked/0" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/1" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/2" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/3" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/4" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/5" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/6" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/7" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/8" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/9" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/10" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/11" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/12" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/13" },
+			 { "model": "gonesovietsmod:red_bricks_50_r_cracked/14" }			 
+         ] 
+     } 
+ } 
