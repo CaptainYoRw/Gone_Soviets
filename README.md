@@ -15,4 +15,4 @@ TO-DO LIST:
 12)Soviet Radio.
 13)Chance that city will be populated by villagers.
 14)Abandoned Soviet nuclear missles bunkers.
-15)Geiger counter and radiation.
+15)Geiger counter and new radiation system.
