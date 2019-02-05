@@ -14,3 +14,5 @@ TO-DO LIST:
 11)Working Soviet elevators.
 12)Soviet Radio.
 13)Chance that city will be populated by villagers.
+14)Abandoned Soviet nuclear missles bunkers.
+15)Geiger counter and radiation.
