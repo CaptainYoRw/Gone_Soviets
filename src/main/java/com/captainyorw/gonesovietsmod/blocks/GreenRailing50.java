@@ -152,7 +152,7 @@ public class GreenRailing50 extends Block{
              * if(LEFT) {
                iblockstate = iblockstate.withProperty(LEFT)
                } Else {
-               iblockstate = iblockstaye.withProperty(RIGHT)
+               iblockstate = iblockstate.withProperty(RIGHT)
                }
              */
             return iblockstate;

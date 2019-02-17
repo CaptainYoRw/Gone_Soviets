@@ -1,0 +1,10 @@
+{ 
+     "variants": { 
+         "normal": [ 
+             { "model": "gonesovietsmod:bitumen/0" },
+			 { "model": "gonesovietsmod:bitumen/1" },
+			 { "model": "gonesovietsmod:bitumen/2" },
+			 { "model": "gonesovietsmod:bitumen/3" }
+         ] 
+     } 
+ } 

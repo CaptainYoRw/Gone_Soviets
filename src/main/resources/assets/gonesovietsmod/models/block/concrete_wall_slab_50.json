@@ -1,8 +1,8 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
     "textures": {
-        "particle": "gonesovietsmod:blocks/concrete_50",
-        "concrete_50": "gonesovietsmod:blocks/concrete_50"
+        "particle": "gonesovietsmod:blocks/concrete_50_0",
+        "concrete_50_0": "gonesovietsmod:blocks/concrete_50_0"
     },
     "display": {
         "gui": {
@@ -42,12 +42,12 @@
             "from": [ 0, 12, 0 ], 
             "to": [ 16, 16, 16 ], 
             "faces": {
-                "north": { "texture": "#concrete_50", "uv": [ 0, 0, 16, 4 ] },
-                "east": { "texture": "#concrete_50", "uv": [ 0, 4, 16, 8 ] },
-                "south": { "texture": "#concrete_50", "uv": [ 0, 12, 16, 16 ] },
-                "west": { "texture": "#concrete_50", "uv": [ 0, 8, 16, 12 ] },
-                "up": { "texture": "#concrete_50", "uv": [ 0, 0, 16, 16 ] },
-                "down": { "texture": "#concrete_50", "uv": [ 0, 0, 16, 16 ] }
+                "north": { "texture": "#concrete_50_0", "uv": [ 0, 0, 16, 4 ] },
+                "east": { "texture": "#concrete_50_0", "uv": [ 0, 4, 16, 8 ] },
+                "south": { "texture": "#concrete_50_0", "uv": [ 0, 12, 16, 16 ] },
+                "west": { "texture": "#concrete_50_0", "uv": [ 0, 8, 16, 12 ] },
+                "up": { "texture": "#concrete_50_0", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#concrete_50_0", "uv": [ 0, 0, 16, 16 ] }
             }
         }
     ]

@@ -1,7 +1,10 @@
 { 
      "variants": { 
          "normal": [ 
-             { "model": "gonesovietsmod:concrete_50" } 
+             { "model": "gonesovietsmod:concrete_50/0" },
+			 { "model": "gonesovietsmod:concrete_50/1" },
+			 { "model": "gonesovietsmod:concrete_50/2" },
+			 { "model": "gonesovietsmod:concrete_50/3" }
          ] 
      } 
  } 
