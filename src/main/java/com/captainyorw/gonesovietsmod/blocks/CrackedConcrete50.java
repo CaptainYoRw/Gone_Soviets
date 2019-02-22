@@ -21,8 +21,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumBlockRenderType;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.IStringSerializable;
-import net.minecraft.util.Mirror;
-import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
@@ -70,12 +68,6 @@ public class CrackedConcrete50 extends BlockDirectional{
         	return null;
         }
     }
-	
-	    @Override
-	    public IBlockState withMirror(IBlockState state, Mirror mirrorIn)
-	    {
-	        return state.withRotation(mirrorIn.toRotation((EnumFacing)state.getValue(FACING)));
-	    }
 	    
 	    @Override
 	    public IBlockState getActualState (IBlockState state, IBlockAccess world, BlockPos position) {
@@ -96,15 +88,10 @@ public class CrackedConcrete50 extends BlockDirectional{
 	    	}
 	    	return iblockstate;
 	    }
-	  
-	    @Override
-	    public IBlockState withRotation(IBlockState state, Rotation rot)
-	    {
-	        return state.withProperty(FACING, rot.rotate((EnumFacing)state.getValue(FACING)));
-	    }
 	
 	    @Override
-	    public boolean isOpaqueCube(IBlockState state) {
+	    public boolean isOpaqueCube(IBlockState state) 
+	    {
 	        return false;
 	    }
 	    
